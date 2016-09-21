@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,8 +27,10 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed --> 
 	<script src="js/bootstrap.js"></script>
     	<div class="top_guy">
+          <div class="container">
         	<h1>Picture perfect</h1>
         	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua. </p>
+          </div>
         </div>
         
         <section class="start_new">
@@ -50,18 +53,21 @@ Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, ad
      </section>
      
      <section class="more_power">
-     	<h1>More power <br>behind every pixel.</h1>
-     	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <br>commodo consequat.<br></p>
-     	<p><strong>See the options →</strong></p>
+     	<div class="container">
+            <div class="col-md-12">
+                <h1>More power <br>behind every pixel.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <br>commodo consequat.<br></p>
+                <p><strong>See the options &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</strong></p>
+        	</div>
+        </div>
      </section>
      
      
      <section class="details">
      	<div class="container">
         	<div class="row">
-              <h2>A look at the details</h2>
        		  <div class="col-md-3">
-       			
+       			    <h2>A look at the details</h2>
                     <h3>Web based</h3>
         			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         		</div>
@@ -87,8 +93,8 @@ Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, ad
      <section class="reason">
      	<div class="container">
      		<div class="row">
-            	<h2>Reasons to get onboard</h2>
      			<div class="col-md-4">
+                	<h2>Reasons to get onboard</h2>
      				<h3>Web based</h3>
      				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
      			</div>
@@ -107,25 +113,53 @@ Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, ad
      <section class="buy">
      	<div class="container">
      		<div class="row">
-     			<div class="col-md-6">
-     				<p class="label label" id="lable_1">LEGACY</p>
-     				<h2>Go it solo</h2>
-     				<p class="buy_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-     				<a href="#" class="btn btn-success" id="btn_1">BUY NOW $9</a><br>
-     				<img src="img/apple.png" alt="">
-     				<img src="img/windows.png" alt="">
-     			</div>
-     			<div class="col-md-6">
-     				<p class="label label-default">MOST POPULAR</p>
-     				<h2>TEAM PLAN</h2>
-     				<p class="buy_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
-     				<a href="#" class="btn btn-success">BUY NOW $18</a><br>
-     				<img src="img/apple.png" alt="">
-     				<img src="img/windows.png" alt="">
+                    <div class="col-md-6">
+                    	<div class="well">
+                        <p class="label label" id="lable_1">LEGACY</p>
+                        <h2>Go it solo</h2>
+                        <p class="buy_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+                        <a href="#" class="btn btn-success" id="btn_1">BUY NOW $9</a><br>
+                        <img src="img/apple.png" alt="" class="apple">
+                        <img src="img/windows.png" alt="">
+                    </div>
+                </div>
+     			
+                <div class="col-md-6">
+                	<div class="well well_shadow">
+                        <p class="label label-default" id="lable_2">MOST POPULAR</p>
+                        <h2>Team plan</h2>
+                        <p class="buy_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                        <a href="#" class="btn btn-success">BUY NOW $18</a><br>
+                        <img src="img/apple.png" alt="" class="apple">
+                        <img src="img/windows.png" alt="">
+                   </div>
      			</div>
      		</div>
      	</div>
-     </section>
+    </section>
+    
+    <footer>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-6">
+                	<h3>Get in touch</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+    			<div class="col-md-2">
+    				<h3>Resources</h3>
+    				<p>Tour<br>Customers<br>Pricing and Plans<br>New Features<br>Education</p>
+    			</div>
+    			<div class="col-md-2">
+    				<h3>Features</h3>
+    				<p>Tour<br>Customers<br>Pricing and Plans<br>New Features<br>Education</p>
+    			</div>
+    			<div class="col-md-2">
+    				<h3>How To’s</h3>
+    				<p>Tour<br>Customers<br>Pricing and Plans<br>New Features<br>Education</p>
+    			</div>
+    		</div>
+    	</div>
+    </footer>
     
   </body>
 </html>
